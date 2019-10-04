@@ -1,7 +1,7 @@
 function go() {
     var messages = ["Meow!", "I'm a talking cat!", "Callbacks are fun!", "add another"];
   
-    for (var i = 0; i < messages.length; i++) {
+    for (let i = 0; i < messages.length; i++) {
       setTimeout(function () {
         cat.say(messages[i]);
       }, i * 1500);
